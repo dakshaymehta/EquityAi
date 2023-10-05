@@ -1,0 +1,17 @@
+{
+  "providers": [
+    "awscloudformation"
+  ],
+  "projectName": "EquityAi",
+  "version": "3.1",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "react-native",
+    "config": {
+      "SourceDir": "./equity-frontend/src",
+      "DistributionDir": "/",
+      "BuildCommand": "npm run build ",
+      "StartCommand": "npm start "
+    }
+  }
+}
